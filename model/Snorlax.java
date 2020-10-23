@@ -1,9 +1,9 @@
 package model;
 import java.awt.Graphics2D;
 
-public class Snorelax extends AI_Chars {
+public class Snorlax extends AI_Chars {
 
-	public Snorelax(int x, int y) {
+	public Snorlax(int x, int y) {
 		super(x, y);
 	}
 

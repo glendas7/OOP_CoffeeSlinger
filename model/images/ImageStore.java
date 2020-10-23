@@ -7,12 +7,12 @@ import java.io.File;
 import javax.imageio.ImageIO;
 
 public class ImageStore {
-	public static BufferedImage car;
-	public static BufferedImage bird;
+	public static BufferedImage coffeeTruck;
+	public static BufferedImage snorlaxChar;
 
 	static{
-		car = readImage("model/images/coffeetruck.png", 70, 50);
-		bird = readImage("model/images/snorelax.gif", 50, 50);
+		coffeeTruck = readImage("model/images/coffeetruck.png", 70, 50);
+		snorlaxChar = readImage("model/images/snorelax.gif", 50, 50);
 	}
 
 	public static BufferedImage readImage(String path, int width, int height){
