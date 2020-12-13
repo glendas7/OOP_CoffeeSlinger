@@ -17,8 +17,10 @@ public class MenuScreen {
 
 	public MenuScreen(JFrame window){
 		this.window = window;
+
 	}
 	public void init(){
+    	window.setSize(510, 200);
 		Container cp = window.getContentPane();
 		JPanel panel = new JPanel();
 		panel.setPreferredSize(new Dimension(400, 200));

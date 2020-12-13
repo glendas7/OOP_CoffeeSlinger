@@ -18,7 +18,8 @@ public class CoffeeSlingerCanvas extends JPanel {
 	private CoffeeSlingerPanel panel;
 	private ArrayList<IRender> pictures = new ArrayList<>();
 	private int selectIndex = 0;
-	private Timer timer = new Timer(); 
+	private Timer timer = new Timer();
+	private int time;
 
 	public CoffeeSlingerCanvas(CoffeeSlingerPanel panel) {
 		this.panel = panel;

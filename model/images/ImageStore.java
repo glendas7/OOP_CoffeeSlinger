@@ -12,7 +12,7 @@ public class ImageStore {
 
 	static{
 		coffeeTruck = readImage("model/images/coffeetruck.png", 70, 50);
-		snorlaxChar = readImage("model/images/snorelax.gif", 50, 50);
+		snorlaxChar = readImage("model/images/snorlax.gif", 50, 50);
 	}
 
 	public static BufferedImage readImage(String path, int width, int height){

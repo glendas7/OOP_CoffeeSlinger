@@ -23,7 +23,7 @@ public class TimerHelper extends TimerTask{
 
     public void run() 
     { 
-        Icon icon = new ImageIcon( "snorelax.gif" ); 
+        Icon icon = new ImageIcon( "snorlax.gif" );
         String ttl = "What a Swell Guy!";
 		IRender pic = panel.getCanvas().getPictures().get(0);
         String msg = "You provided " + pic.getCount() +" Snorlaxes with their morning coffee!";
